@@ -27,45 +27,22 @@ function Pricing() {
 
   const data = [
     {
-      value: "Full face Rs.250",
+      value: " solana 1 $250",
       type: "Basic",
     },
     {
-      value: "Cheeks Rs. 90",
+      value: " eth pvt accnt2 $90",
       type: "Basic",
     },
     {
-      value: "Jawline Rs.50",
+      value: "ETHERIUM PVT accnt3  $50",
       type: "Basic",
     },
     {
-      value: "Lower Lip Rs.50",
+      value: "solana2 $150",
       type: "Basic",
     },
-    {
-      value: "Upper Lip Rs.50",
-      type: "Basic",
-    },
-    {
-      value: "Under arms Rs.100",
-      type: "Basic",
-    },
-    {
-      value: "Full Legs Rs.450",
-      type: "Pro",
-    },
-    {
-      value: "Half Legs Rs.300",
-      type: "Pro",
-    },
-    {
-      value: "Daily Backups",
-      type: "Expert",
-    },
-    {
-      value: "One Click Setup",
-      type: "Expert",
-    },
+    
   ]
 
   return (
@@ -124,8 +101,8 @@ function Pricing() {
                   })}
                 </ul>
                 <div className="pricing__plan__content__actions">
-                  <span>Order Now</span>
-                  <img src={play} alt="Order Now" />
+                  <span>subscribe Now</span>
+                  <img src={play} alt="subscribe Now" />
                 </div>
               </div>
             </motion.div>

@@ -9,32 +9,29 @@ function Skills() {
   const [element, controls] = useScroll();
   const skillsData = [
     {
-      name: "Facial",
+      name: "backend",
       amount: 75,
     },
     {
-      name: "Skin",
+      name: "dynamic",
       amount: 50,
     },
     {
-      name: "SPA",
+      name: "remix",
       amount: 90,
     },
     {
-      name: "Cosmetic",
+      name: " eth",
       amount: 70,
     },
-    {
-      name: "Salon",
-      amount: 90,
-    },
+    
   ];
   return (
     <Section id="skills" ref={element}>
       <Title value="skills" />
       <div className="skills__title">
-        <p>Our Skills</p>
-        <h2>Check our super awesome skills</h2>
+        <p>Our Ideaes</p>
+        <h2>Check our super awesome ideas</h2>
       </div>
       <div className="skills">
         <div className="skills__bars">
@@ -65,9 +62,9 @@ function Skills() {
             Beauty Services and Products
           </p>
           <p className="description">
-            To be a successful beautician, you should have a wide range 
-            of skills in beauty services, good communication skills, 
-            and the ability to advise clients on suitable hairstyles.
+            To be a successful developer, you should have a wide range 
+            of skills in backend services, good communication skills, 
+            and the ability to advise clients on suitable products .
           </p>
         </div>
       </div>

@@ -35,13 +35,13 @@ function Contact() {
             </p>
             <div>
               <p>
-                <strong>Address:</strong> 33, Flyover Road,
+                <strong>Address:</strong> 33, xxxx
               </p>
               <p>
-                <strong>Email:</strong> blossoms@gmail.com
+                <strong>Email:</strong> metaverse@gmail.com
               </p>
               <p>
-                <strong>Website:</strong> www.blossoms.com
+                <strong>Website:</strong> www.metaverse.com
               </p>
             </div>
           </div>

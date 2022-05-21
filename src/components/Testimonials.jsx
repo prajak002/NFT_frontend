@@ -10,22 +10,22 @@ function Testimonials() {
   const [selected, setSelected] = useState(0);
   const testimonials = [
     {
-      designation: "SPA",
-      name: "Julie Baker",
+      designation: "CEO",
+      name: "ABC",
       review:
-      "Perfection is by far one of the best retreats around, professional in every aspect but friendly too. Michelle and her dedicated team will do their best to meet your needs and give you your ultimate treatment. Massages are a must and worth every penny. Highly worth a visit !"
+      "XXXXX"
     },
     {
-      designation: "Full Makeup",
-      name: "Gabreilla",
+      designation: "CTO",
+      name: "ABC",
       review:
-      "Perfection isn’t just any other salon. It’s a complete cut above the rest. Every visit is always a treat and you’re always made to feel special. Michelle never takes her customers for granted and she strives to always deliver something above and beyond ordinary expectations"
+      "EEEEE"
     },
     {
-      designation: "Skin",
-      name: "Natalia",
+      designation: "CFO",
+      name: "MNO",
       review:
-      "Perfection is by far one of the best retreats around, professional in every aspect but friendly too. Michelle and her dedicated team will do their best to meet your needs and give you your ultimate treatment. Massages are a must and worth every penny. Highly worth a visit !"
+      "JJJ"
     },
   ];
   return (

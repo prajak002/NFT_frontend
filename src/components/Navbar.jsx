@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled from "styled-components";
-import logo from "assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { useScroll } from "components/useScroll";
@@ -19,7 +18,7 @@ function Navbar() {
   >
     <div className="brand__container">
       <a href="#" className='brand'>
-        <img src={logo} alt="logo" />
+        METAVERSE
       </a>  
       <div className="toggle">
         {isNavOpen ? (
@@ -43,7 +42,7 @@ function Navbar() {
             <a href="#services">Services</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">view your transactions</a>
           </li>
           <li>
             <a href="#blog">Blog</a>
@@ -63,7 +62,7 @@ const Nav = styled(motion.nav)`
   display: flex;
   justify-content: space-between;
   margin: 0 2rem;
-  color: #fff;
+  color:white;
   padding-top: 2rem;
   .brand__container {
     margin: 0 2rem;
@@ -83,7 +82,7 @@ const Nav = styled(motion.nav)`
       }
       li {
         a {
-          color: #fff;
+          color:white;
           text-decoration: none;
           font-weight: 400;
           font-size: 0.9rem;

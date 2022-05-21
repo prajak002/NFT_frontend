@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import play from "assets/play.png";
-import home from "assets/home.png";
+import home from "assets/Home.png";
 import Title from './Title';
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";
@@ -11,19 +11,19 @@ function Blog() {
   const [element, controls] = useScroll();
   const blogsData = [
     {
-      title:"PARLOUR JOURNAL",
-      type: "SPA",
-      description: "Our blog is intended to help answer your hair related questions and provide information about healthy hair choices and products.",
+      title:"NFT JOURNAL",
+      type: "transactions",
+      description: "Our blog is intended to help answer about all nft products.",
     },
     {
-      title:"REFELXOLOGY SKY",
+      title:"blockchain transaction",
       type: "Relax",
-      description: "Reflexologists believe that these reflex points, pressing them creates real benefits for the person's health. If you have any questions, please email",
+      description: "If you have any questions, please email",
     },
     {
-      title:"MEDITATION SUN",
-      type: "Yoga",
-      description: "Keep your body and mind it pure and clean for the soul to reside in. Our Spa Offer yoga classes in areas. creates real benefits for the person's health.",
+      title:"security with encryption",
+      type: "security",
+      description: "offer a trustable security",
     },
   ]
   return <Section id="blog" ref={element}>

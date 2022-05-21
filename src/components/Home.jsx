@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import home from "assets/home.png";
+import home from "assets/Home.png";
 import play from "assets/play.png";
 import Navbar from './Navbar';
 import { motion } from "framer-motion";
@@ -16,13 +16,11 @@ function Home() {
       >
         <div className="content">
           <div className="title">
-            <h1>Blossoms Parlour</h1>
+            <h1>METAVERSE</h1>
           </div>  
           <div className="subTitle">
             <p>
-              At the Beauty Parlour, we believe in beauty with a conscience. 
-              We have created a salon that offers the highest quality hair 
-              services.
+              An Archetechtural life
             </p>  
           </div>
           <img src={play} alt="Play Button" />
@@ -35,8 +33,8 @@ function Home() {
       >
           <div className="grid">
             <div className="col">
-                <strong>Parlour</strong>
-                <p>Blossoms Academy</p>
+                <strong>NFT Platform</strong>
+                <p>transactions</p>
             </div>
             <div className="col">
                 <strong>Email</strong>
@@ -44,22 +42,22 @@ function Home() {
             </div> 
             <div className="col">
                 <strong>Mobile</strong>
-                <p>+91 8897666511</p>
+                <p>+91 99999999</p>
             </div> 
             <div className="col">
                 <strong>Address</strong>
-                <p>322, Long Fly,</p>
+                <p>322, xxxx,</p>
                 <p>997773 India</p>
             </div> 
             <div className="col">
                 <strong>Services</strong>
                 <p>Sparking</p>
-                <p>SPA Cream</p>
+                <p>cryptocurrencey handeling</p>
             </div> 
             <div className="col">
-                <strong>Working Hours</strong>
-                <p>Monday to Friday</p>
-                <p>08:00 to 09:00</p>
+                <strong>service</strong>
+               
+                <p>24 x 365</p>
             </div>   
           </div>
       </motion.div>
@@ -79,7 +77,7 @@ const Section = styled.section`
       flex-direction: column;
       align-items: flex-start;
       width: 60%;
-      color: #fff;
+      color:#portfolio;
       gap: 1.2rem;
       margin-top: 8rem;
       padding-left: 18rem;
