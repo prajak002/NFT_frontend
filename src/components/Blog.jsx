@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 import play from "assets/play.png";
-import home from "assets/Home.png";
+import home from "assets/home.png";
 import Title from './Title';
 import { motion } from "framer-motion";
 import { useScroll } from "./useScroll";

@@ -25,7 +25,7 @@ function App() {
       <Video />
       <Pricing />
       <Testimonials />
-      <Skills />
+       <Skills /> 
       <Contact />
       <Footer />
       <ScrollToTop />

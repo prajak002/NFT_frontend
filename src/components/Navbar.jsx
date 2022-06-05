@@ -15,11 +15,11 @@ function Navbar() {
   transition={{ delay: 0.1 }}
   animate={controls} 
   state={isNavOpen ? 1 : 0}
+  className="sticky top-0 z-10 bg-white"
   >
     <div className="brand__container">
-      <a href="#" className='brand'>
-        METAVERSE
-      </a>  
+         <span class="gradient skew"><h1 class="logo un-skew">METAVERSE</h1></span>
+      
       <div className="toggle">
         {isNavOpen ? (
           <MdClose onClick={ () => setIsNavOpen(false)} />
@@ -33,9 +33,8 @@ function Navbar() {
         )}
       </div>
     </div>
-    <div className={`links ${isNavOpen ? "show" : ""}`}>
-    <ul>
-        <li className="active">
+    <div className={`links ${isNavOpen ? "show" : ""}`}>         <ul>
+          <li className="active">
             <a href="#home">Home</a>
           </li>
           <li>
@@ -54,7 +53,9 @@ function Navbar() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
-    </div>
+          
+        </div>
+  
   </Nav>
 }
 

@@ -8,6 +8,9 @@ import Title from './Title';
 import { useScroll } from "components/useScroll";
 import { motion } from "framer-motion";
 import { servicesAnimations } from "animation";
+import Lottie from 'lottie-react';
+
+import Metaverse from './Metaverse.json'
 
 function Services() {
   const [element, controls] = useScroll();
@@ -52,7 +55,13 @@ function Services() {
                   </div>
                   <p className="services__service__description">{text}</p>
                   <img src={play} alt="Readmore" />
+
+                 
+      
+    
+
               </motion.div>
+              
             )
           })}
     </div>
@@ -103,6 +112,7 @@ min-height: 100vh;
     }
   }
 }
+
 @media screen and (min-width: 280px) and (max-width: 1080px) {
   .services {
     margin: 2rem 0;
@@ -111,6 +121,7 @@ min-height: 100vh;
     padding: 0 2rem;
   }
 }
+
 `;
 
 export default Services
